@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d Card Effect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="sneaker">
+                <div class="circle"></div>
+                <img id="img" src="./sorry.png" alt="sorry">
+                <h1 id="thankYou" style="display: none;">Thank you</h1>
+            </div>
+            <div id="info" class="info">
+                <h1 class="title"></h1>
+                <h3 id="sorryText">I'm sorry, please accept my apologies...</h3>
+                <div id="accept" class="accept">
+                    <button onclick="accept()">Accept</button>
+                </div>
+                <div id="reject" class="reject">
+                    <button onclick="reject()">Reject</button>
+                </div>
+            </div>
+            <p style="padding-top: 2rem;" id="response"></p>
+        </div>
+
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
